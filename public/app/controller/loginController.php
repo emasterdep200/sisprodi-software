@@ -39,7 +39,7 @@ class loginController
 	public function outLogin()
 	{
 		$this->session->destroySession();
-		$this->view->toUrl('../../index.php');
+		$this->view->toUrl('../../../index.php');
 	}
 
 }

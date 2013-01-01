@@ -17,7 +17,7 @@
                             <li class="menu-title">Navegación</li>
 
                             <li>
-                                <a href="../../dashboard/index">
+                                <a href="../dashboard/index">
                                     <i class="la la-dashboard"></i>
                                     <span class="badge badge-info badge-pill float-right">2</span>
                                     <span> Escritorio </span>
