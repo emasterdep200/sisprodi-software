@@ -9,13 +9,20 @@ namespace App\Helpers\managerSessionGeneral;
 	{
 		// private $data = [];
 
+		private $path = '';
+
+		public function setPath($path)
+		{
+			$this->path = $path;
+		}
+
 		public function createSession($name,$value)
 		{
 			session_start();
 			$_SESSION[$name] = $name;
 		}
 
-		private function destroySession()
+		public function destroySession()
 		{
         	session_start();
         	session_destroy();
@@ -26,14 +33,19 @@ namespace App\Helpers\managerSessionGeneral;
 			session_start();
 		}
 
-		public function verifySession($name)
+		public function verifySession($name,$turn=true)
 		{
-			return ( isset($_SESSION[$name]) ) ? true : false ;
+			if ($turn) {
+				( isset($_SESSION[$name]) ) ? true : $this->rediretion() ;
+			}else{
+				( !isset($_SESSION[$name]) ) ? true : $this->rediretion() ;
+			}
+			
 		}
 
-		public function rediretion($path)
+		private function rediretion()
 		{
-			header('location:'.$path);
+			header('location:'.$this->path);
 		}
 
 	}

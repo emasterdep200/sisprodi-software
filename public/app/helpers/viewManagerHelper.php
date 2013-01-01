@@ -57,4 +57,9 @@ namespace App\Helpers\ViewHelper;
  		$this->path = 'general';
  	}
 
+ 	public function toUrl($path)
+ 	{
+ 		header('location:'.$path);
+ 	}
+
  } 

@@ -71,7 +71,7 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item active">
                                     <div class="notify-icon">
-                                        <img src="../../view/assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <img src="../../assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
                                     <p class="notify-details">Cristina Pride</p>
                                     <p class="text-muted mb-0 user-msg">
                                         <small>Lorem ipsum dolor sit amet.</small>
@@ -82,7 +82,7 @@
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <div class="notify-icon">
-                                        <img src="assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <img src="../../assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
                                     <p class="notify-details">Karen Robinson</p>
                                     <p class="text-muted mb-0 user-msg">
                                         <small>Lorem ipsum dolor sit amet.</small>
@@ -132,7 +132,7 @@
 
                     <li class="dropdown notification-list">
                         <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                            <img src="../../view/assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
+                            <img src="../../assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
                             <span class="pro-user-name ml-1">
                                 Hobett G. <i class="mdi mdi-chevron-down"></i> 
                             </span>
@@ -166,7 +166,7 @@
                             <div class="dropdown-divider"></div>
 
                             <!-- item-->
-                            <a href="../login/exitSession/" class="dropdown-item notify-item">
+                            <a href="../login/outLogin/" class="dropdown-item notify-item">
                                 <i class="fe-log-out"></i>
                                 <span>Cerrar Sesión</span>
                             </a>
@@ -183,12 +183,12 @@
                 <div class="logo-box">
                     <a href="index.html" class="logo text-center">
                         <span class="logo-lg">
-                            <img src="../../view/assets/images/logo-light.png" alt="" height="24">
+                            <img src="../../assets/images/logo-light.png" alt="" height="24">
                             <!-- <span class="logo-lg-text-light">Upvex</span> -->
                         </span>
                         <span class="logo-sm">
                             <!-- <span class="logo-sm-text-dark">X</span> -->
-                            <img src="../../view/assets/images/logo-sm.png" alt="" height="28">
+                            <img src="../../assets/images/logo-sm.png" alt="" height="28">
                         </span>
                     </a>
                 </div>
