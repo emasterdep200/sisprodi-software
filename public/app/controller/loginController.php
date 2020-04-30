@@ -22,10 +22,13 @@ class loginController
 	}
 
 	public function login()
-	{
+	{ 
+		echo 'hola';
 		$value = $this->login->ExistUser($this->request->requestPost('name'),$this->request->requestPost('password'));
 		if ( $value) {
-			echo '<hr> ahora si me logue';
+			echo 'aquí me logue';
+			$this->session->createSession('login','activo');
+			$this->session->rediretion('../dashboard/index');
 		}
 	}
 

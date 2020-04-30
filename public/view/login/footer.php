@@ -110,34 +110,34 @@
         <script src="../../assets/js/vendor.min.js"></script>
 
         <!-- Flot js-->
-        <!-- <script src="../../assets/libs/flot-charts/jquery.flot.time.js"></script>
+        <script src="../../assets/libs/flot-charts/jquery.flot.time.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.tooltip.min.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.resize.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.pie.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.selection.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.stack.js"></script>
         <script src="../../assets/libs/flot-charts/jquery.flot.orderBars.js"></script>
-        <script src="../../assets/libs/flot-charts/jquery.flot.crosshair.js"></script> -->
+        <script src="../../assets/libs/flot-charts/jquery.flot.crosshair.js"></script>
 
         <!-- init js -->
         <script src="../../assets/js/pages/flot.init.js"></script>
 
         <!-- third party js -->
-        <!-- <script src="../../assets/libs/datatables/jquery.dataTables.min.js"></script>
+        <script src="../../assets/libs/datatables/jquery.dataTables.min.js"></script>
         <script src="../../assets/libs/datatables/dataTables.bootstrap4.js"></script>
         <script src="../../assets/libs/datatables/dataTables.responsive.min.js"></script>
-        <script src="../../assets/libs/datatables/responsive.bootstrap4.min.js"></script> -->
+        <script src="../../assets/libs/datatables/responsive.bootstrap4.min.js"></script>
 
         <!-- Third Party js-->
-        <!-- <script src="../../assets/libs/peity/jquery.peity.min.js"></script>
+        <script src="../../assets/libs/peity/jquery.peity.min.js"></script>
         <script src="../../assets/libs/apexcharts/apexcharts.min.js"></script>
         <script src="../../assets/libs/jquery-vectormap/jquery-jvectormap-1.2.2.min.js"></script>
-        <script src="../../ssets/libs/jquery-vectormap/jquery-jvectormap-us-merc-en.js"></script> -->
+        <script src="../../ssets/libs/jquery-vectormap/jquery-jvectormap-us-merc-en.js"></script>
 
         <!-- plugin js -->
-        <!-- <script src="../../assets/libs/moment/moment.min.js"></script>
+        <script src="../../assets/libs/moment/moment.min.js"></script>
         <script src="../../assets/libs/jquery-ui/jquery-ui.min.js"></script>
-        <script src="../../assets/libs/fullcalendar/fullcalendar.min.js"></script> -->
+        <script src="../../assets/libs/fullcalendar/fullcalendar.min.js"></script>
 
         <!-- Calendar init -->
         <script src="../../assets/js/pages/calendar.init.js"></script>
@@ -151,7 +151,7 @@
         <script src="../../assets/js/pages/tickets.js"></script>
 
         <!-- App js -->
-        <script src="../../assets/js/app.js"></script>
+        <script src="../../assets/js/app.min.js"></script>
         
     </body>
 </html>

@@ -7,6 +7,7 @@ Contact: support@coderthemes.com
 File: Main Js File
 */
 
+console.log('CARGADO *****************************************************')
 
 !function ($) {
     "use strict";

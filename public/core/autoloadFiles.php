@@ -14,7 +14,7 @@ $files = [
 	[
 		'type' => 'controller',
 		'name' => 'Controller',
-		'files'=> ['index','user','login']
+		'files'=> ['index','user','login','dashboard']
 	],
 	[
 		'type' => 'model',

@@ -9,14 +9,9 @@ namespace App\Helpers\managerSessionGeneral;
 	{
 		// private $data = [];
 
-		public function __construct()
+		public function createSession($name,$value)
 		{
-			// $retVal = (condition) ? a : b ;
-		}
-
-
-		private function createSession($name,$value)
-		{
+			session_start();
 			$_SESSION[$name] = $name;
 		}
 
@@ -28,10 +23,10 @@ namespace App\Helpers\managerSessionGeneral;
 
 		public function sessionStart()
 		{
-			$this->startSesion();
+			session_start();
 		}
 
-		private function verifySession($name)
+		public function verifySession($name)
 		{
 			return ( isset($_SESSION[$name]) ) ? true : false ;
 		}
@@ -40,4 +35,5 @@ namespace App\Helpers\managerSessionGeneral;
 		{
 			header('location:'.$path);
 		}
+
 	}

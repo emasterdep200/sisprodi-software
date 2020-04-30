@@ -12,6 +12,7 @@ namespace App\Controller\IndexController;
 		public function __construct()
 		{
 			$this->view = new ViewHelper(true);
+			$this->view->setPath('login');
 		}
 
 		public function index()
