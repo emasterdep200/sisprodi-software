@@ -11,16 +11,18 @@ class InsertData
 	function __construct()
 	{
 		$this->manager = new ManipulationData();
-		$this->insetPersona();
+		$this->insetUsuarios();
 	}
 
-	public function insetPersona()
+	public function insetUsuarios()
 	{
-		$row = ['id_persona','nombre'];
-		$values = [1,"'Jose'"];
+		$password = password_hash('4321',PASSWORD_BCRYPT);
+
+		$row = ['id_usuario','nombre','password'];
+		$values = [1,"'Jose'","'".$password."'"];
 		$this->manager->setRow($row);
 		$this->manager->setValue($values);
-		$this->manager->insert('persona');
+		$this->manager->insert('usuarios');
 		$this->manager->start();
 	}
 }

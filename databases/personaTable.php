@@ -9,11 +9,13 @@ class PersonaTable extends Migration
 	public function up()
 	{
 		parent::__construct();
-		$this->setTable('persona');
+		$this->setTable('usuarios');
 		$this->gsbd->createTable();
 		$this->gsbd->isVarchar('nombre',20);
 		$this->gsbd->jump();
-		$this->gsbd->int('id_persona');
+		$this->gsbd->textType('password');
+		$this->gsbd->jump();
+		$this->gsbd->int('id_usuario');
 		$this->gsbd->isPrimary();
 		$this->gsbd->end();
 		$this->gsbd->create();
@@ -21,7 +23,7 @@ class PersonaTable extends Migration
 
 	public function down()
 	{
-		$this->dropIfExist('persona');
+		$this->dropIfExist('usuarios');
 	}
 
 }
