@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use Core\Database\ManagerTable\ManagerTable;
 use Manager\Migration\Migration;
@@ -9,22 +9,21 @@ class PersonaTable extends Migration
 	public function up()
 	{
 		parent::__construct();
-		$this->setTable('usuarios');
-		$this->gsbd->createTable();
-		$this->gsbd->isVarchar('nombre',20);
-		$this->gsbd->jump();
-		$this->gsbd->textType('password');
-		$this->gsbd->jump();
-		$this->gsbd->int('id_usuario');
-		$this->gsbd->isPrimary();
-		$this->gsbd->end();
-		$this->gsbd->create();
+		$this->setTable('personas');
+		$this->gsbd->executeInsert('
+			CREATE TABLE personas ( 
+				cedula INT PRIMARY KEY ,
+				nombre varchar(100),
+				apellido varchar(100), 
+				telefono varchar(20),
+				fecha_nacimiento date
+			); 
+		');
 	}	
 
 	public function down()
 	{
-		$this->dropIfExist('usuarios');
+		$this->dropIfExist('personas');
 	}
 
 }
-

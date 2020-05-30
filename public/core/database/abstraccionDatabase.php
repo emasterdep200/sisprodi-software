@@ -131,7 +131,6 @@ namespace Core\Database\AbstractModel;
 			{
 				$this->data = $this->conection->prepare($sql);
 				$this->data->execute();
-				return $this->data->fetch(PDO::FETCH_OBJ);
 			} 
 			catch (Exception $e) 
 			{

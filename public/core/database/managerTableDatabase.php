@@ -84,6 +84,7 @@ class ManagerTable extends AbstractModel
 
 	public function executeInsert($sql)
 	{
+		echo 'TABLA: '.$this->table.' ';
 		$this->SQL($sql);
 	}
 }
